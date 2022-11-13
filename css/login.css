@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+.logo_and_shop {
+    line-height: 80px;
+    height: 80px;
+    padding-left: 110px;
+    margin-top: -3px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo_and_shop .menu li {
+    padding: 0 16px;
+    list-style: none;
+}
+
+.search .menu1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search .menu1 a {
+    text-decoration: none;
+}
+
+.search .menu1 li {
+    color: black;
+    padding: 0 16px;
+    list-style: none;
+}
+
+.search .menu1 li a {
+    color: black;
+}
+
+.all {
+    line-height: 50px;
+    height: 50px;
+    margin: auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    height: 50px;
+    width: 100%;
+    background-color: #ebe7e7;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+.menu1 li a:hover {
+    color: red;
+}
+
+.menu1 {
+    margin-left: -15px;
+}
+
+.all form button i:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.all form button i {
+
+    width: 20px;
+}
+.body {
+    width: 100%;
+    margin: auto;
+}
+.logo a{
+    text-decoration: none;
+}
+/*----------------footer--------------------------*/
+footer {
+    padding-top: 25px;
+    width: 100%;
+    height: 230px;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-footer {
+
+    margin: auto;
+    margin: auto;
+    width: 75%;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-footer ul li {
+    list-style: none;
+}
+.menu-footer ul li a {
+    text-decoration: none;
+}
+.menu-footer ul li a:hover {
+    color: red;
+}
+
+.menu-footer ul p a:hover {
+    color: red;
+}
+
+.all-menu-footers {
+    width: 100%;
+    background-color: #FBFBFB;
+}
+
+.local-footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 185px;
+}
+.login-main{
+    width: 1170px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+.input-info-user{
+    padding-left: 15px;
+    height: auto;
+    margin-top: 35px;
+    width: 580px;
+    border: 1px solid black;
+    border-top: 2px solid black;
+    margin-left: 270px;
+}
+.line{
+    align-items: center;
+    height: 1px ;
+    width: 80%;
+    background-color: black;
+    margin: 5px 0;
+}
+.input-info-user button{
+    margin: 10px 0;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    background-color: yellow;
+}
+.input-info-user button:hover{
+    color: white;
+    background-color: black;
+}
+.input-info-user form a{
+    text-decoration: none;
+}
+.input-info-user form a:hover{
+    color: red;
+}
+.my-account ul li {
+    color: black;
+}
